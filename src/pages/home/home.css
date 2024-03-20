@@ -1,0 +1,40 @@
+.banner_section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner_section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 491px;
+    background-image: url('../../assets/banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(40%); /* Adjust the brightness to your liking */
+    z-index: -1;
+  }
+  
+  .content_banner { 
+    width: 100%;
+    height: 491px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+#title-banner{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--neutral-0);
+}

@@ -1,0 +1,40 @@
+
+
+header{
+    background-color: var(--neutral-1);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#text-logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--neutral-0);
+}
+
+#button-header{
+    background-color: var(--red1);
+    padding: 1rem;
+     border-radius: 0px, 20px, 0px, 20px;
+    color: var(--neutral-0);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
